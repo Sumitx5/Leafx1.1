@@ -1,0 +1,18 @@
+TOKEN: "" # add Your Token Here if You Want to Use Bot
+Prefix: "!" # Bots Prefix
+
+# Bots Activity Controller
+activity_loop_time: 10       # Supports only Seconds
+activity_logs_on_console: True
+random_activities: True
+activity_type: "playing"  # options(playing, watching, listening) if random activity is false
+activities:
+  playing:
+    name: "with Python"
+
+  listening:
+    name: "!help"
+    state: "play with me!"
+
+  watching:
+    name: "{guilds} Guilds & {members} Members"
